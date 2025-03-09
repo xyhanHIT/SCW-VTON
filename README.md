@@ -1,25 +1,28 @@
-<div align="center">
+# [ACM MM 2024] Shape-Guided Clothing Warping for Virtual Try-On 
+This repository is the official implementation of [SCW-VTON](https://dl.acm.org/doi/abs/10.1145/3664647.3680756)
 
-# Shape-Guided Clothing Warping for Virtual Try-On
-
-[Xiaoyu Han](https://xyhanhit.github.io), 
+> **Shape-Guided Clothing Warping for Virtual Try-On**<br>
+> [Xiaoyu Han](https://xyhanhit.github.io), 
 [Shunyuan Zheng](https://shunyuanzheng.github.io), 
 [Zonglin Li](), 
 [Chenyang Wang](), 
 [Xin Sun](), 
-[Quanling Meng]()<sup>*</sup>, 
+[Quanling Meng]()
 
+[[Paper](https://dl.acm.org/doi/abs/10.1145/3664647.3680756)]&nbsp;
+[[Checkpoints]()]&nbsp;
 
-<p>Harbin Institute of Technology
+![teaser](https://github.com/xyhanHIT/SCW-VTON/blob/main/images/teaser.png)&nbsp;
 
-#### [[Paper]](https://dl.acm.org/doi/abs/10.1145/3664647.3680756) · [[Checkpoints]]()
+<!-- ## TODO List
+- [x] ~~Inference code~~
+- [x] ~~Release model weights~~
+- [x] ~~Training code~~ -->
 
-</div>
-
-![image](images/teaser.png)
-
-## Pipeline
-![image]()
+## TODO List
+- Inference code for clothing warping
+- Inference code for try-on synthesis
+- Release mode weights
 
 ## Environment
 python 3.8
