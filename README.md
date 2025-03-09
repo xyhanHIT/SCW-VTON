@@ -46,14 +46,14 @@ You also need to download the data about hands from [here](https://drive.google.
 python test.py
 ```
 
-## Sample Try-on Results
-  
-![image]()
-
-![image]()
-
 ## License
 The use of this code is restricted to non-commercial research and educational purposes.
+
+## Related Works
+This work builds upon our previous research:
+- **[PL-VTON](https://github.com/xyhanHIT/PL-VTON)**: Progressive Limb-Aware Virtual Try-On (ACM MM'22)
+- **[PL-VTONv2](https://github.com/aipixel/PL-VTONv2)**: Limb-Aware Virtual Try-On Network With Progressive Clothing Warping (IEEE TMM'23)
+
 
 ## Citation
 If you use our code or models, please cite with:
