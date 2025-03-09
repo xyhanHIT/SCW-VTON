@@ -24,17 +24,28 @@ This repository is the official implementation of [SCW-VTON](https://dl.acm.org/
 - Inference code for try-on synthesis
 - Release mode weights
 
-## Environment
-python 3.8
+## Environments
+```bash
+git clone https://github.com/xyhanHIT/SCW-VTON.git
+cd SCW-VTON
+conda create -n scw-vton python=3.8
+conda activate scw-vton
 
-torch 2.0.1+cu118
+# install packages
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install tqdm
+pip install opencv-python
+pip install scikit-image
+```
 
-torchvision 0.15.2+cu118
-
-## Dataset
-For the dataset, please refer to [VITON](https://github.com/xthan/VITON).
+## Data preparation
+### VITON
+You can download the VITON-HD datasets from [VITON](https://github.com/xthan/VITON).
 
 You also need to download the data about hands from [here](https://drive.google.com/file/d/1VbzXS6vYumRoUaVp0PRXvB_1d54aqxM6/view?usp=drive_link).
+
+### VITON-HD
+you can download the VITON-HD datasets from [VITON-HD](https://github.com/shadow2496/VITON-HD) or [GP-VTON](https://github.com/xiezhy6/GP-VTON)
 
 ## Inference
 1. Download the checkpoints from [here]().
@@ -46,14 +57,18 @@ You also need to download the data about hands from [here](https://drive.google.
 python test.py
 ```
 
-## License
-The use of this code is restricted to non-commercial research and educational purposes.
+## Results
+<div style="width: 100%; text-align: center; margin:auto;">
+    <img style="width:100%" src="images/results.png">
+</div>
 
-## Related Works
-This work builds upon our previous research:
-- **[PL-VTON](https://github.com/xyhanHIT/PL-VTON)**: Progressive Limb-Aware Virtual Try-On (ACM MM'22)
-- **[PL-VTONv2](https://github.com/aipixel/PL-VTONv2)**: Limb-Aware Virtual Try-On Network With Progressive Clothing Warping (IEEE TMM'23)
+## Our Team's Researches
+- **[[ACM MM'22] PL-VTON](https://github.com/xyhanHIT/PL-VTON)** - Progressive Limb-Aware Virtual Try-On
+- **[[IEEE TMM'23] PL-VTONv2](https://github.com/aipixel/PL-VTONv2)** - Limb-Aware Virtual Try-On Network With Progressive Clothing Warping
+- **[[ACM MM'24] SCW-VTON](https://github.com/xyhanHIT/SCW-VTON)** - Shape-Guided Clothing Warping for Virtual Try-On
 
+## Acknowledgements
+Our code references the implementation of [DCI-VTON](https://github.com/bcmi/DCI-VTON-Virtual-Try-On). Thanks for their awesome works.
 
 ## Citation
 If you use our code or models, please cite with:
