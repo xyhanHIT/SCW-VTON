@@ -45,7 +45,7 @@ You can download the VITON-HD datasets from [VITON](https://github.com/xthan/VIT
 You also need to download the data about hands from [here](https://drive.google.com/file/d/1VbzXS6vYumRoUaVp0PRXvB_1d54aqxM6/view?usp=drive_link).
 
 ### VITON-HD
-you can download the VITON-HD datasets from [VITON-HD](https://github.com/shadow2496/VITON-HD) or [GP-VTON](https://github.com/xiezhy6/GP-VTON)
+You can download the VITON-HD datasets from [VITON-HD](https://github.com/shadow2496/VITON-HD) or [GP-VTON](https://github.com/xiezhy6/GP-VTON)
 
 ## Inference
 1. Download the checkpoints from [here]().
