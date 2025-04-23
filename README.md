@@ -9,7 +9,7 @@ This repository is the official implementation of [SCW-VTON](https://dl.acm.org/
 [Xin Sun](), 
 [Quanling Meng]()
 
-[[Paper](https://dl.acm.org/doi/abs/10.1145/3664647.3680756)]&nbsp;
+[[Paper](https://arxiv.org/abs/2504.15232)]&nbsp;
 [[Checkpoints](https://pan.baidu.com/s/1-ww-bGwZQpFe-eUN1Nq-vg?pwd=4hde)]&nbsp;
 
 ![teaser](https://github.com/xyhanHIT/SCW-VTON/blob/main/assets/teaser.png)&nbsp;
@@ -36,7 +36,7 @@ bash environment.sh
 
 2. Download the checkpoints from [here](https://pan.baidu.com/s/1q5rZyHd7PwNcllULmuWUNQ?pwd=p926).
 
-3. Modify the "dataroot" and "ckpts" parameters in test.sh according to the downloaded files above.
+3. Modify the "dataroot" and "ckpts" parameters in "test.sh" according to the downloaded files above.
 
 4. Run the "test.sh".
 ```bash
