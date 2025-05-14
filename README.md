@@ -34,7 +34,7 @@ bash environment.sh
 
 1. Download the VITON-HD datasets from [VITON-HD](https://github.com/shadow2496/VITON-HD) or [GP-VTON](https://github.com/xiezhy6/GP-VTON).
 
-2. Download the checkpoints from [here](https://pan.baidu.com/s/1-ww-bGwZQpFe-eUN1Nq-vg?pwd=4hde).
+2. Download the checkpoints from [Baidu Netdisk](https://pan.baidu.com/s/1-ww-bGwZQpFe-eUN1Nq-vg?pwd=4hde) or [Google Drive](https://drive.google.com/drive/folders/1v6pYpWOQC0cHatCCECIsof_LMNymG9YI?usp=drive_link).
 
 3. Modify the "dataroot" and "ckpts" parameters in "test.sh" according to the downloaded files above.
 
