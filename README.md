@@ -1,3 +1,9 @@
+## Our Team's Researches
+- **[[ACM MM'22] PL-VTON](https://github.com/xyhanHIT/PL-VTON)** - Progressive Limb-Aware Virtual Try-On
+- **[[IEEE TMM'23] PL-VTONv2](https://github.com/aipixel/PL-VTONv2)** - Limb-Aware Virtual Try-On Network With Progressive Clothing Warping
+- **[[ACM MM'24] SCW-VTON](https://github.com/xyhanHIT/SCW-VTON)** - Shape-Guided Clothing Warping for Virtual Try-On
+- **[[CVPR'26 Highlight] MODA-VTON](https://arxiv.org/abs/2606.11148)** - MOFA-VTON: More Fashion Possibilities with Fine-Grained Adaptations in Virtual Try-On
+
 # [ACM MM 2024] Shape-Guided Clothing Warping for Virtual Try-On 
 This repository is the official implementation of [SCW-VTON](https://dl.acm.org/doi/abs/10.1145/3664647.3680756)
 
@@ -48,15 +54,11 @@ bash test.sh
 python metrics.py
 ```
 
+
 ## Results
 <div style="width: 100%; text-align: center; margin:auto;">
     <img style="width:100%" src="assets/results.png">
 </div>
-
-## Our Team's Researches
-- **[[ACM MM'22] PL-VTON](https://github.com/xyhanHIT/PL-VTON)** - Progressive Limb-Aware Virtual Try-On
-- **[[IEEE TMM'23] PL-VTONv2](https://github.com/aipixel/PL-VTONv2)** - Limb-Aware Virtual Try-On Network With Progressive Clothing Warping
-- **[[ACM MM'24] SCW-VTON](https://github.com/xyhanHIT/SCW-VTON)** - Shape-Guided Clothing Warping for Virtual Try-On
 
 ## Acknowledgements
 Our code references the implementation of [DCI-VTON](https://github.com/bcmi/DCI-VTON-Virtual-Try-On). Thanks for their awesome works.
